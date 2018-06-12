@@ -43,8 +43,14 @@ public:
         qgis_devClass->resize(954, 668);
         actionadd_vector = new QAction(qgis_devClass);
         actionadd_vector->setObjectName(QStringLiteral("actionadd_vector"));
+        QIcon icon;
+        icon.addFile(QStringLiteral(":/images/themes/default/mActionNewVectorLayer.svg"), QSize(), QIcon::Normal, QIcon::Off);
+        actionadd_vector->setIcon(icon);
         actionadd_raster = new QAction(qgis_devClass);
         actionadd_raster->setObjectName(QStringLiteral("actionadd_raster"));
+        QIcon icon1;
+        icon1.addFile(QStringLiteral(":/images/themes/default/mActionAddRasterLayer.svg"), QSize(), QIcon::Normal, QIcon::Off);
+        actionadd_raster->setIcon(icon1);
         centralWidget = new QWidget(qgis_devClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         qgis_devClass->setCentralWidget(centralWidget);

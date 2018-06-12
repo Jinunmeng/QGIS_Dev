@@ -54,11 +54,22 @@
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
   <action name="actionadd_vector">
+   <property name="icon">
+    <iconset resource="Resources/images/images.qrc">
+     <normaloff>:/images/themes/default/mActionNewVectorLayer.svg</normaloff>:/images/themes/default/mActionNewVectorLayer.svg</iconset>
+   </property>
    <property name="text">
     <string>add vector</string>
    </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
+   </property>
   </action>
   <action name="actionadd_raster">
+   <property name="icon">
+    <iconset resource="Resources/images/images.qrc">
+     <normaloff>:/images/themes/default/mActionAddRasterLayer.svg</normaloff>:/images/themes/default/mActionAddRasterLayer.svg</iconset>
+   </property>
    <property name="text">
     <string>add raster</string>
    </property>
@@ -66,7 +77,7 @@
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="qgis_dev.qrc"/>
+  <include location="Resources/images/images.qrc"/>
  </resources>
  <connections/>
 </ui>

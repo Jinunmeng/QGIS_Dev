@@ -53,13 +53,2638 @@
     </QtUic>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="qgis_dev.qrc">
-      <Filter>Resource Files</Filter>
-    </QtRcc>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="qgis_dev_zh.ts">
       <Filter>Translation Files</Filter>
     </None>
+    <None Include="Resources\images\missing_image.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mActionDecreaseBrightness.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mActionDecreaseContrast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mActionIncreaseBrightness.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mActionIncreaseContrast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mIconClose.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mIconEditableEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mIconRasterLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\theme_originals\mIconWarn.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\action.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\CRS.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\datadefined.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\display.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\general.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labelbackground.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labelbuffer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labelformatting.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labelplacement.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labelshadow.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\labeltext.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\metadata.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\plugin.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\plugin-incompatible.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\plugin-installed.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\plugin-new.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\plugins.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\plugin-upgrade.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\render.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\settings.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\propertyicons\system.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\action.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\delete.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\deselect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\hammer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\mouse-pointer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\qgismap.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\screwdriver.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\vector-layer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\svgbase\worldmap.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\bubble.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\cap_style.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\clear_input.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\digitisingIconsMaster.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\extents.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\generalIconsMaster.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\histogram.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\icon_template18x18.xcf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\icon_template22x22.xcf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\join_style.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\locked.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mAction.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAdd.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddAllToOverview.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddDelimitedTextLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddMssqlLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddOgrLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddOracleLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddPostgisLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddRasterLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddSpatiaLiteLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddWcsLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddWfsLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAddWmsLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAtlasFirst.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAtlasLast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAtlasNext.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAtlasPrev.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionAtlasSettings.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionCancelAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionCancelEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionComposerManager.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionCustomProjection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDecreaseBrightness.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDecreaseContrast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDeleteSelected.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDeselectAll.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDraw.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDuplicateComposer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionDuplicateLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFileNew.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFileOpen.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFileSave.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFileSaveAs.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFillRing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFilter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionFullHistogramStretch.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionHelpContents.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionHighlightFeature.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionIdentify.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionIncreaseBrightness.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionIncreaseContrast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionInOverview.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionLink.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionMapIdentification.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionNewComposer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionNewSpatiaLiteLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionNewVectorLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionOptions.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionPan.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionPanHighlightFeature.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionPanToSelected.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionPinLabels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionRemove.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionRemoveAllFromOverview.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionRemoveLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionRollbackAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionRollbackEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionRotateLabel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSaveAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSaveEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionScaleHighlightFeature.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSelect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSelectFreehand.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSelectPolygon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSelectRadius.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSelectRectangle.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSetProjection.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionShowHideLabels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionShowPinnedLabels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionShowPluginManager.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSplitFeatures.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionSplitParts.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionToggleEditing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionTouch.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionUnlink.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionWhatsThis.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomActual.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomFullExtent.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomIn.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomLast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomNext.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomOut.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomToArea.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomToLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mActionZoomToSelected.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconAtlas.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconAutoPlacementSettings.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconClear.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconColorBox.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconColorPicker.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconColorSwatches.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconColorWheel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDataDefine.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDataDefineError.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDataDefineExpression.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDataDefineExpressionError.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDataDefineExpressionOn.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDataDefineOn.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDeselected.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconDropDownMenu.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconExpression.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconExpressionEditorOpen.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconExpressionFilter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconExpressionPreview.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconExpressionSelect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconLabelQuadrantCenter.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconLabelQuadrantOffset.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconLineLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconMssql.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconOracle.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconOws.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconPaintEffects.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconPointLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconPolygonLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconPostgis.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconProperties.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconRaster.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconRasterLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconRenderingDisabled.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconRenderingEnabled.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconSelectAdd.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconSelected.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconSelectIntersect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconSelectRemove.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconSpatialite.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconStopRendering.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconTableLayer.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconWcs.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconWfs.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconWms.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\mIconZoom.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\pie-chart.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\relation.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\selectTools.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\text.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\tracking.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\unlocked.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\user.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes\default\zoomMaster.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionCancelAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionCancelEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionDecreaseBrightness.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionDecreaseContrast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionIncreaseBrightness.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionIncreaseContrast.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionPanToSelected.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionPinLabels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionRollbackAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionRollbackEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionRotateLabel.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionSaveAllEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionSaveEdits.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionSelectPolygon.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionShowHideLabels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionShowPinnedLabels.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionSplitFeatures.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Resources\images\themes_old\default\mActionToggleEditing.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="qgis_dev.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\images\qgis-icon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\projectionselector.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\af.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\bn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\bs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ca.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\cs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\da.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\de.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\el.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\en_US.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\es.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\et.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\eu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\fa.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\fi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\fr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\gl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\he.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\hi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\hr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\hu.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\id.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\is.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\it.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ja.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ka.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\km.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ko.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\lo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\lt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\lv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ml.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\mn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\mr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\nb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\nl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\pl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\pt_BR.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\pt_PT.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ro.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ru.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\sk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\sl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\sq.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\sr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\sv.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\sw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\ta.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\te.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\th.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\tl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\tr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\uk.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\vi.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\xh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\zh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\zh_CN.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\flags\zh_TW.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cadtools\cad.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cadtools\construction.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cadtools\delta.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cadtools\lock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cadtools\parallel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cadtools\perpendicular.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconClassBrowserConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconClassConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconClassTreeWidgetConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconClearConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconCodepadConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconCommentEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconCopyEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconCutEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconFileTabsMenuConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconFunctionTreeWidgetConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconHelpConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconHideToolConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconMethodTreeWidgetConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconNewTabEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconOpenConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconPasteEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconProcessingConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconQtCoreConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconQtGuiConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconResetColorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconRestoreTabsConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconRunConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconRunScriptConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSaveAsConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSaveConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconScriptConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSearchEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSearchNextEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSearchPrevEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSettingsConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconShowEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconSyntaxErrorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconTabEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\console\iconUncommentEditorConsole.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\calendarwidget.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\checkbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\columnview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\combobox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\commandlinkbutton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\dateedit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\datetimeedit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\dial.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\dialogbuttonbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\dockwidget.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\doublespinbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\fontcombobox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\frame.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\graphicsview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\groupbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\groupboxcollapsible.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\hscrollbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\hslider.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\hsplit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\label.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\lcdnumber.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\line.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\lineedit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\listbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\listview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\mdiarea.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\plaintextedit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\progress.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\pushbutton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\radiobutton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\scrollarea.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\spacer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\spinbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\tabbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\table.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\tabwidget.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\textedit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\timeedit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\toolbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\toolbutton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\vline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\vscrollbar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\vslider.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\vspacer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\widget.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\widgetstack.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\customization\wizard.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\attributes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\colormap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\CRS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\diagram.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\digitising.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\gdal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\histogram.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\join.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\labels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\locale.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\map_tools.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\metadata.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\network_and_proxy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\overlay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\pyramids.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\rendering.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\symbology.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\propertyicons\transparency.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\styleicons\color.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\styleicons\style-line.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\styleicons\style-point.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\styleicons\style-polygon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cap_flat.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cap_round.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\cap_square.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\clearInput.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\copyright_label.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\extents.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\favourites.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\geographic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\grass_location.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\grass_mapset.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\histogram.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\join_bevel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\join_miter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\join_round.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\locked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAdd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddArrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddBasicShape.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddGPSLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddGroup.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddHtml.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddLegend.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddMap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddNonDbLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddPart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddRing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAddVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAlignBottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAlignHCenter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAlignLeft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAlignRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAlignTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAlignVCenter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionAnnotation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionArrowDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionArrowLeft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionArrowRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionArrowUp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCalculateField.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCaptureLine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCapturePoint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCapturePolygon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionChangeLabelProperties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCheckQgisVersion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCollapseTree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionContextHelp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCopySelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCreateMemory.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionCustomProjection.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionDeleteAttribute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionDeletePart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionDeleteRing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionDeleteVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionEditCopy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionEditCut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionEditPaste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionExpandNewTree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionExpandTree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionExportMapServer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFileExit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFileNew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFilePrint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFileSmall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFilter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFormAnnotation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFreezeLabels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFromSelectedFeature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFullCumulativeCutStretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionFullHistogramStretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionGroupItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionHelpAbout.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionHelpAPI.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionHelpSponsors.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionHideAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionHideSelectedLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionInvertSelection.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionLabeling.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionLocalCumulativeCutStretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionLocalHistogramStretch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionLowerItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMapTips.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMeasure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMeasureAngle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMeasureArea.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMergeFeatureAttributes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMergeFeatures.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMoveFeature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMoveItemContent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMoveItemsToBottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMoveItemsToTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMoveLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionMoveVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionNewAttribute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionNewBookmark.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionNewFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionNewTableRow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionNodeTool.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionOffsetCurve.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionOpenTable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionProjectProperties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionPropertiesWidget.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionPropertyItem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionQgisHomePage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRaiseItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRedo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRefresh.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRemove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRemoveSelectedFeature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionReshape.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRotateFeature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRotateLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionRotatePointSymbols.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSaveAsPDF.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSaveAsSVG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSaveMapAsImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionScaleBar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSelectedToTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSelectPan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionShowAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionShowBookmarks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionShowFrozenLabels.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionShowRasterCalculator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionShowSelectedLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSignMinus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSignPlus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSimplify.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionSum.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionTextAnnotation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionToggleEditing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionTouch2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionUndo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionUngroupItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mActionUnselectAttributes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconClear.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconClose.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconCollapse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconConnect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconCritical.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconDbSchema.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconDelete.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconEditable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconEditableEdits.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconExpand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconFavourites.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconFirst.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconGeometryLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconInfo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconLast.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconLoading.gif">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconLock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconNew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconNext.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconNoPyramid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconPrevious.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconProjectionDisabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconProjectionEnabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconProjectionProblem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconPyramid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconRenderingDisabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconRenderingEnabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconStopRendering.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconSuccess.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconSymbology.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconTableLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconTimerContinue.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconTimerPause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconUnknownLayerType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconWaitingForLayerType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconWarn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mIconZip.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\mMapserverExport.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\north_arrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\pie-chart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\plugin.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\pluginDeprecated.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\pluginExperimental.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\rendererCategorizedSymbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\rendererGraduatedSymbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\rendererSingleSymbol.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\repositoryConnected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\repositoryDisabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\repositoryUnavailable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\scale_bar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\stars_empty.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\stars_full.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\symbologyAdd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\symbologyDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\symbologyEdit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\symbologyRemove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\symbologyUp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\text.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\tracking.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\transformed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\transp-background_8x8.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\unlocked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes\default\user.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mAction.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddAllToOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddIsland.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddLegend.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddOgrLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddRasterLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddRing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionAddWmsLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCaptureLine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCapturePoint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCapturePolygon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCheckQgisVersion.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCollapseTree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionContextHelp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCopySelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionCustomProjection.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionDeleteAttribute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionDeleteSelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionDeleteVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionDraw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionEditCopy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionEditCut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionEditPaste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionExpandTree.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionExportMapServer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFileExit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFileNew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFileOpen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFilePrint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFileSave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFileSaveAs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFileSmall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionHelpAbout.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionHelpContents.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionHideAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionIdentify.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionInOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionInvertSelection.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionMeasure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionMeasureArea.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionMoveVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionNewAttribute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionNewBookmark.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionNewFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionNewVectorLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionOpenTable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionOptions.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionPan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionProjectProperties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionPropertyItem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionQgisHomePage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionRemove.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionRemoveAllFromOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionRemoveLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionSaveAsSVG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionSaveMapAsImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionScaleBar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionSelect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionSelectedToTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionShowAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionShowBookmarks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionShowPluginManager.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionToggleEditing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionTouch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionUnselectAttributes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomFullExtent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomIn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomLast.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomNext.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomOut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomToLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mActionZoomToSelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconEditable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconGeometryLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconLineLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconNoPyramid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconPointLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconPolygonLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconProjectionDisabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconProjectionEnabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconProjectionProblem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconProperties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconPyramid.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconSymbology.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconUnknownLayerType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mIconWaitingForLayerType.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\classic\mMapserverExport.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\locked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddArrow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddBasicShape.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddHtml.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddLegend.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddMap.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddOgrLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddPart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddRasterLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddRing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddSpatiaLiteLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddWcsLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddWfsLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAddWmsLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAlignBottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAlignHCenter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAlignLeft.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAlignRight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAlignTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAlignVCenter.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionAnnotation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionCalculateField.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionCaptureLine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionCapturePoint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionCapturePolygon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionChangeLabelProperties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionComposerManager.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionCopySelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDeleteAttribute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDeletePart.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDeleteRing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDeleteSelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDeleteVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDeselectAll.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDraw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionDuplicateComposer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionEditCopy.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionEditCut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionEditPaste.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFileNew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFileOpen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFilePrint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFileSave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFileSaveAs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFolder.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionFormAnnotation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionGroupItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionHelpContents.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionHideAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionIdentify.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionInOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionInvertSelection.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionLabeling.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionLowerItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMapTips.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMeasure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMeasureAngle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMeasureArea.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMergeFeatureAttributes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMergeFeatures.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMoveFeature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMoveItemContent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMoveItemsToBottom.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMoveItemsToTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMoveLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionMoveVertex.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionNewAttribute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionNewBookmark.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionNewComposer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionNewVectorLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionNodeTool.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionOffsetCurve.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionOpenTable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionPan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionPanToSelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionRaiseItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionRedo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionRemoveLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionReshape.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionRotateFeature.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionRotateLabel.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSaveAsPDF.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSaveAsSVG.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSaveMapAsImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionScaleBar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelectedToTop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelectFreehand.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelectPan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelectPolygon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelectRadius.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSelectRectangle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionShowAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionShowBookmarks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionShowRasterCalculator.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSimplify.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionSplitFeatures.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionTextAnnotation.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionToggleEditing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionTouch.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionUndo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionUngroupItems.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionUnselectAttributes.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomActual.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomFullExtent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomIn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomLast.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomNext.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomOut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomToLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mActionZoomToSelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconClose.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconConnect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconDbSchema.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconEditable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconEditableEdits.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconLineLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconMssql.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconOracle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconOws.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconPointLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconPolygonLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconPostgis.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconRaster.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconSpatialite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconTableLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconVectorLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconWarn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconWcs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconWfs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\mIconWms.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\default\unlocked.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\action.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\contexthelp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\delete_selected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\gis_plain_cursor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\inline_table.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\layers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionAddAllToOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionAddLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionAddNonDbLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionAddRasterLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionAddWmsLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionCaptureLine.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionCapturePoint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionCapturePolygon.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionCustomProjection.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionDraw.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionExportMapServer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionFileExit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionFileNew.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionFileOpen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionFilePrint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionFileSave.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionFileSaveAs.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionHelpAbout.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionHelpContents.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionHideAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionIdentify.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionInOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionMeasure.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionNewBookmark.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionNewVectorLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionOpenTable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionOptions.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionPan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionProjectProperties.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionQgisHomePage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionRemoveAllFromOverview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionRemoveLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionSaveMapAsImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionSelect.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionShowAllLayers.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionShowBookmarks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionShowPluginManager.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomFullExtent.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomIn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomLast.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomNext.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomOut.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomToLayer.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mActionZoomToSelected.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mIconProjectionDisabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mIconProjectionEnabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\mIconProjectionProblem.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\over.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\over-.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\over1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\qgis32x32.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\remove_all_to_overview.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\show_all_layers1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\images\themes_old\nkids\show_layerReal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resources\images\themes\default\svgbase\rgb_values.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Resources\images\themes\default\CMakeLists.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Resources\images\themes\default\LICENSE.TXT">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resources\images\images.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
   </ItemGroup>
 </Project>
