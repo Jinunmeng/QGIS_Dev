@@ -1,0 +1,1 @@
+#define QGSVERSION "exported"

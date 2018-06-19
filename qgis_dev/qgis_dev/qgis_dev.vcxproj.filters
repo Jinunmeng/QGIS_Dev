@@ -691,6 +691,15 @@
     <ClInclude Include="resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ui_qgis_dev.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qgsconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="qgsversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="qgis_dev.rc" />
